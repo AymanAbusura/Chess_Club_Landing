@@ -1,0 +1,2879 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos Text', sans-serif;
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1920px) {
+    .container {
+        background-image: url('../assets/header/image23.png');
+        position: relative;
+        display: flex;
+        width: 1920px;
+        height: 700px;
+        gap: 0px;
+        opacity: 1;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        z-index: 1;
+    }
+
+    .container::after {
+        content: "";
+        background-color: #E9DED4;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0.9;
+        z-index: 0;
+    }
+    
+    .header {
+        position: absolute;
+        display: flex;
+        width: 1920px;
+        height: 64px;
+        left: 0;
+        top: 0;
+        gap: 0px;
+        opacity: 1;
+        z-index: 6;
+    }
+
+    .logo {
+        position: absolute;
+        width: 21.65px;
+        height: 31.18px;
+        top: 28.31px;
+        left: 349px;
+        gap: 0px;
+        opacity: 1;
+    }
+
+    .logo1 { left: 372.39px; }
+    .logo2 { left: 395.77px; }
+    .logo3 { left: 419.16px; }
+
+    .header-logo {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        color: #595653;
+        width: 147px;
+        height: 36px;
+        top: 26px;
+        left: 447.17px;
+        font-size: 16.65px;
+        font-weight: 700;
+        line-height: 17.98px;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+
+    .graph {
+        position: absolute;
+        width: 542px;
+        height: 444px;
+        top: 124px;
+        left: 348.5px;
+        gap: 0px;
+        opacity: 1;
+        z-index: 6;
+    }
+
+    .graph-div {
+        position: absolute;
+        width: 542px;
+        height: 264px;
+        gap: 0px;
+        opacity: 1;
+    }
+
+    .graph-span {
+        position: absolute;
+        display: flex;
+        color: #313131;
+        width: 542px;
+        height: 132px;
+        gap: 0px;
+        opacity: 1;
+        font-family: 'Merriweather';
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 66px;
+        text-align: left;
+    }
+
+    .graph-span-1 {
+        position: absolute;
+        display: flex;
+        color: #313131;
+        width: 360px;
+        height: 66px;
+        top: 132px;
+        left: 91px;
+        gap: 0px;
+        opacity: 1;
+        font-family: 'Merriweather';
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 66px;
+        text-align: right;
+    }
+
+    .graph-span-2 {
+        position: absolute;
+        display: flex;
+        color: #313131;
+        width: 542px;
+        height: 66px;
+        top: 198px;
+        gap: 0px;
+        opacity: 1;
+        font-family: 'Merriweather';
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 66px;
+        text-align: right;
+    }
+
+    .graph-span-3 {
+        position: absolute;
+        display: flex;
+        color: #313131;
+        width: 542px;
+        height: 46px;
+        top: 288px;
+        gap: 0px;
+        opacity: 0.8;
+        font-family: 'Golos Text', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23.4px;
+        text-align: center;
+    }
+
+    .button-div {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 542px;
+        height: 72px;
+        left: 0px;
+        top: 374px;
+        padding: 0px;
+        gap: 16px;
+    }
+
+    .button {
+        background-color: #1F1F1F;
+        color: #fff;
+        width: 263px;
+        height: 72px;
+        padding: 20px;
+        gap: 0px;
+        border-radius: 66px;
+        opacity: 1;
+        border: 2px solid #1F1F1F;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+
+    }
+
+    .button-1 {
+        background-color: #1f1f1f00;
+        color: #1F1F1F;
+    }
+
+    .button:hover, .button:active {
+        background-color: #FBCE51;
+        color: #1F1F1F;
+        border: none;
+    }
+
+    .button-1:hover {
+        background-color: #1F1F1F;
+        color: #FFFFFF;
+    }
+
+    .button-span {
+        position: absolute;
+        display: flex;
+        width: 165px;
+        height: 32px;
+        gap: 0px;
+        opacity: 1;
+        font-family: 'Golos Text';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.8px;
+        text-align: center;
+        align-items: center;
+        leading-trim: both;
+        text-edge: cap;
+        text-align: center;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .circle {
+        position: absolute;
+        display: flex;
+        width: 660px;
+        height: 660px;
+        top: -44px;
+        left: 951px;;
+        gap: 0px;
+        background-color: #FBCE51;
+        border-radius: 50%;
+        transform: rotate(-15deg);
+        opacity: 0.8;
+        z-index: 2;
+        mix-blend-mode: multiply;
+    }
+
+    .circle::before,  {
+        content: "";
+        background-color: #FBCE51;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border-radius: 50%;
+        mix-blend-mode: color-burn;
+        opacity: 1;
+    }
+
+    .circle-text {
+        background: url('../assets/header/circle-text.png') no-repeat center center;
+        position: absolute;
+        display: flex;
+        width: 777px;
+        height: 675px;
+        top: 0;
+        left: 892.85px;
+        gap: 0px;
+        mix-blend-mode: overlay;
+        z-index: 3;
+    }
+
+    .president-chess {
+        background: url('../assets/header/chess/president-chess.png') no-repeat;
+        background-size: contain;
+        position: absolute;
+        display: flex;
+        width: 113.16px;
+        height: 252.44px;
+        top: 165.29px;
+        left: 1372.79px;
+        gap: 0px;
+        transform: rotate(7.59deg);
+        z-index: 4;
+    }
+
+    .president-chess::before {
+        content: "";
+        background-image: url(../assets/header/image23.png);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0.9;
+        z-index: 5;
+        mix-blend-mode: color-burn;
+        clip-path: polygon(54% 71%, 53% 66%, 37% 5%, 77% 8%);
+    }
+
+    .president-chess::after {
+        content: "";
+        background-image: url(../assets/header/image23.png);
+        background-size: contain;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0.5;
+        z-index: 5;
+        mix-blend-mode: soft-light;
+        clip-path: polygon(54% 71%, 53% 66%, 37% 5%, 77% 8%);
+    }
+
+    .king-chess {
+        background: url('../assets/header/chess/king-chess.png') no-repeat;
+        background-size: contain;
+        position: absolute;
+        display: flex;
+        width: 103.78px;
+        height: 255.89px;
+        top: 281.19px;
+        left: 1007.18px;
+        gap: 0px;
+        transform: rotate(-5.99deg);
+        z-index: 4;
+    }
+
+    .king-chess::before {
+        content: "";
+        background-image: url(../assets/header/image23.png);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0.9;
+        z-index: 5;
+        mix-blend-mode: color-burn;
+        clip-path: polygon(62% 90%, 37% 33%, 13% 14%, 62% 12%);
+    }
+
+    .king-chess::after {
+        content: "";
+        background-image: url(../assets/header/image23.png);
+        background-size: contain;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0.5;
+        z-index: 5;
+        mix-blend-mode: soft-light;
+        clip-path: polygon(62% 90%, 37% 33%, 13% 14%, 62% 12%);
+    }
+
+    .city {
+        background: url('../assets/header/city.png') no-repeat;
+        background-size: contain;
+        position: absolute;
+        display: flex;
+        width: 1623.5px;
+        height: 452.5px;
+        top: 270px;
+        left: 161.5px;
+        gap: 0px;
+        z-index: 4;
+    }
+
+    .soldier-chess {
+        background: url('../assets/header/chess/soldier-chess.png');
+        background-size: cover;
+        position: absolute;
+        width: 82.61px;
+        height: 122.22px;
+        top: 558.2px;
+        left: 1516.83px;
+        gap: 0px;
+        z-index: 4;
+    }
+
+    .hourse-chess {
+        background: url('../assets/header/chess/hourse-chess.png') no-repeat;
+        background-size: contain;
+        position: absolute;
+        display: flex;
+        width: 153.87px;
+        height: 200.99px;
+        top: 510.85px;
+        left: 1113.64px;
+        gap: 0px;
+        z-index: 4;
+        transform: rotate(-10.59deg);
+    }
+
+    .running {
+        background-color: #F54932;
+        width: 1920px;
+        height: 60px;
+        margin-top: 700px;
+        gap: 12px;
+        opacity: 1;
+        z-index: 6;
+    }
+
+    .running-line-wrapper {
+        overflow: hidden;
+        width: auto;
+        height: 60px;
+        background: #F54932;
+        position: relative;
+    }
+
+    .running-line {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        top: 0;
+        left: 0;
+        padding: 18px 12px 18px 12px;
+        gap: 12px;
+        opacity: 1;
+        white-space: nowrap;
+        animation: scroll-left 15s linear infinite;
+        background: #F54932;
+    }
+
+    .running-line:hover {
+        animation-play-state: paused;
+    }
+
+    .text-block {
+        height: 24px;
+        font-family: 'Merriweather', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 24.2px;
+        text-align: center;
+        text-transform: uppercase;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+        white-space: nowrap;
+    }
+
+    .text-block-1 { width: 766px; }
+    .text-block-2 { width: 841px; }
+    .text-block-3 { width: 626px; }
+
+    .ellipse {
+        width: 6px;
+        height: 6px;
+        background: #FFFFFF;
+        border-radius: 50%;
+    }
+
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .showen-mobile { display: none; }
+
+    .group-15 { display: none; }
+
+    .support { display: none; }
+
+    .double-section { display: none; }
+
+    .stages { display: none; }
+
+    .participants { display: none; }
+
+    .last-div { display: none; }
+
+}
+
+@media screen and (width: 1366px) {
+    .container{
+        width: 1366px;
+    }
+
+    .header {
+        width: 1366px;
+    }
+
+    .logo {
+        width: 21.65px;
+        height: 31.18px;
+        top: 28.31px;
+        left: 72px;
+    }
+
+    .logo1 { left: 95.39px; }
+    .logo2 { left: 118.77px; }
+    .logo3 { left: 142.16px; }
+
+    .header-logo {
+        width: 147px;
+        height: 36px;
+        top: 26px;
+        left: 170.17px;
+        font-size: 16.65px;
+        font-weight: 700;
+        line-height: 17.98px;
+    }
+
+    .graph { left: 72px; }
+
+    .circle { 
+        left: 663px; 
+        transform: rotate(0deg);
+    }
+
+    .circle-text { 
+        left: 618px; 
+        background-size: auto;
+        width: -webkit-fill-available; 
+    }
+
+    .president-chess { left: 1094.79px; }
+
+    .king-chess { left: 729.18px; }
+
+    .city { 
+        left: -116.5px;
+        background-size: auto;
+        width: -webkit-fill-available;
+    }
+
+    .soldier-chess { left: 1238.83px; }
+
+    .hourse-chess { left: 835.64px; }
+
+/* RUNNING LINE-1 1366px*/
+    .running {
+        background-color: #F54932;
+        margin-top: 0;
+        position: absolute;
+        display: flex;
+        width: -webkit-fill-available;
+        height: 60px;
+        top: 700px;
+        left: -484px;
+        gap: 12px;
+        opacity: 1;
+        z-index: 6;
+    }
+
+    .running-line-wrapper {
+        overflow: hidden;
+        width: 2335px;
+        height: 60px;
+        background: #F54932;
+        position: relative;
+    }
+
+    .running-line {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        top: 0;
+        left: 0;
+        padding: 18px 12px 18px 12px;
+        gap: 12px;
+        opacity: 1;
+        white-space: nowrap;
+        animation: scroll-left 15s linear infinite;
+        background: #F54932;
+    }
+
+    .running-line:hover {
+        animation-play-state: paused;
+    }
+
+    .text-block {
+        height: 24px;
+        font-family: 'Merriweather', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 24.2px;
+        text-align: center;
+        text-transform: uppercase;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+        white-space: nowrap;
+    }
+
+    .text-block-1 { width: 766px; }
+    .text-block-2 { width: 841px; }
+    .text-block-3 { width: 626px; }
+
+    .ellipse {
+        width: 6px;
+        height: 6px;
+        background: #FFFFFF;
+        border-radius: 50%;
+    }
+
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .group-15 {
+        display: flex;
+    }
+
+    .lecture-info {
+        position: absolute;
+        width: 764px;
+        height: 195.43px;
+        left: 72px;
+        top: 866.92px;
+        font-family: 'Merriweather', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 48.6px;
+        text-transform: uppercase;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #313131;
+    }
+
+    .lecture-info-span {
+         color: #F54932;
+    }
+
+    .frame-player {
+        box-sizing: border-box;
+        position: absolute;
+        width: 394px;
+        height: 250px;
+        left: 900px;
+        top: 840px;
+        gap: 0px;
+        border-radius: 87.31px;
+        opacity: 1;
+    }
+
+    .ellipse-65 {
+        position: absolute;
+        width: 394px;
+        height: 250px;
+        border-radius: 60% 60% 60% 60%;
+        left: 0;
+        top: 0;
+        gap: 0px;
+        opacity: 1;
+        background: #D9D9D9;
+    }
+
+    .image-background {
+        position: absolute;
+        width: 394px;
+        height: 394px;
+        left: 0;
+        top: -44.21px;
+        background: url('../assets/section1/chess player.png') no-repeat center;
+    }
+
+    .image-23 {
+        position: absolute;
+        width: 807.09px;
+        height: 370.33px;
+        top: -59.8px;
+        left: -206.54px;
+        background: url('../assets/header/image23.png') no-repeat center;
+        mix-blend-mode: color-burn;
+    }
+
+    .support {
+        display: flex;
+    }
+
+    .double-section{ display: flex; }
+
+    .showen-mobile {
+        display: none;
+    }
+
+    .section-image {
+        background: url('../assets/section1/Frame 48095654.png') no-repeat center;
+        position: absolute;
+        display: flex;
+        width: 474px;
+        height: 527px;
+        top: 1154px;
+        left: 72px;
+        gap: 0px;
+        opacity: 1;
+    }
+    
+    .section-div {
+        position: absolute;
+        width: 704px;
+        height: 147px;
+        left: calc(50% - 704px/2 + 259px);
+        top: 1154px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 48.6px;
+        text-transform: uppercase;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+    }
+
+    .section-div2 {
+        position: absolute;
+        display: flex;
+        width: 290px;
+        height: 24px;
+        left: 590px;
+        font-family: 'Golos Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #313131;
+        gap: 0px;
+        opacity: 0.7;
+    }
+
+    .section-div2-text1 { top: 1361px; }
+    .section-div2-text2 { top: 1417px; }
+    .section-div2-text3 { top: 1473px; }
+    .section-div2-text4 { top: 1529px; }
+    .section-div2-text5 { top: 1585px; }
+
+    hr {
+        position: absolute;
+        display: flex;
+        width: 704px;
+        height: 0px;
+        left: 590px;
+        border: 2px solid #D0D0D0;
+    }
+
+    .hr1 { top: 1401px; }
+    .hr2 { top: 1457px; }
+    .hr3 { top: 1513px; }
+    .hr4 { top: 1569px; }
+
+    .hr-vertical {
+        position: absolute;
+        width: 0px;
+        height: 248px;
+        left: 896px;
+        top: 1361px;
+        border: 2px solid #D0D0D0;
+    }
+
+    .section-div3 {
+        position: absolute;
+        height: 24px;
+        left: 912px;
+        font-family: 'Golos Text';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #313131;
+    }
+
+    .section-div3-text1 { width: 382px; top: 1361px; }
+    .section-div3-text2 { width: 268px; top: 1417px; }
+    .section-div3-text3 { width: 268px; top: 1473px; }
+    .section-div3-text4 { width: 268px; top: 1529px; }
+    .section-div3-text5 { width: 268px; top: 1585px; }
+
+    .old-price {
+        position: absolute;
+        width: 82px;
+        height: 24px;
+        left: 912px;
+        top: 1585px;
+        font-family: 'Golos Text';
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        text-align: left;
+        white-space: nowrap;
+        color: #313131;
+    }
+
+    .strike-through {
+        position: absolute;
+        width: 81px;
+        height: 0;
+        left: 910.5px;
+        top: 1599.5px;
+        border: 2px solid #F54932;
+    }
+
+    .new-price {
+        position: absolute;
+        width: 143px;
+        height: 24px;
+        left: 1006px;
+        top: 1585px;
+        font-family: 'Golos Text';
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        text-align: left;
+        color: #313131;
+    }
+
+    .section-div4 { 
+        position: absolute;   
+        width: 704px;
+        height: 24px;
+        top: 1657px;
+        left: 590px;
+        gap: 0px;
+        opacity: 1;
+        font-family: Golos Text;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #3057A2;
+    }
+    
+    .stages {
+        display: flex;
+        width: -webkit-fill-available;
+        position: absolute;
+        top: 0;
+    }
+
+    .stage {
+        position: absolute;
+        width: 806px;
+        height: 130px;
+        left: calc(50% - 806px/2 - 208px);
+        top: 1881px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 65px;
+        text-transform: uppercase;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #313131;
+    }
+
+    .stage-span {
+        display: inline-block;
+        position: absolute;
+        width: 280px;
+        height: 48px;
+        left: 373px;
+        top: 1953px;
+        gap: 0px;
+        opacity: 1;
+        font-family: 'Golos Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #3057A2;
+    }
+
+    .swiper-container{
+        position: absolute;
+        top: 0;
+    }
+
+    .frames-wrapper {
+        display: flex;
+        justify-content: space-between;
+        background: #F0F0F0;
+    }
+
+    .frame {
+        position: relative;
+        display: flex;
+        background: #D9D9D9;
+        border: 1px solid #ccc;
+        overflow: hidden;
+    }
+
+    #frame-48095627 {
+        width: 808px;
+        height: 136px;
+        left: 486px;
+        top: 2329px;
+        gap: 16px;
+        position: absolute;
+    }
+
+    #frame-48095632 {
+        width: 394px;
+        height: 112px;
+        left: 486px;
+        top: 2197px;
+        gap: 10px;
+        position: absolute;
+    }
+
+    #frame-48095633 {
+        width: 394px;
+        height: 112px;
+        left: 72px;
+        top: 2197px;
+        gap: 10px;
+        position: absolute;
+    }
+
+    #frame-48095629 {
+        width: 394px;
+        height: 112px;
+        left: 72px;
+        top: 2065px;
+        gap: 10px;
+        position: absolute;
+    }
+
+    #frame-48095630 {
+        width: 394px;
+        height: 112px;
+        left: 486px;
+        top: 2065px;
+        gap: 10px;
+        position: absolute;
+    }
+
+    #frame-48095631 {
+        width: 394px;
+        height: 244px;
+        left: 900px;
+        top: 2065px;
+        gap: 10px;
+        position: absolute;
+    }
+
+    #frame-48095628 {
+        width: 394px;
+        height: 136px;
+        left: 72px;
+        top: 2329px;
+        gap: 16px;
+        position: absolute;
+    }
+
+    .number-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        background: #FFFFFF;
+        border-radius: 60px;
+        top: 20px;
+        left: 20px;
+        opacity: 1;
+        gap: 10px;
+        z-index: 2;
+    }
+
+    .number {
+        font-family: Golos Text;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: #313131;
+    }
+
+    .description {
+        position: absolute;
+        display: flex;
+        width: 302px;
+        height: 72px;
+        top: 20px;
+        left: 72px;
+        gap: 0px;
+        opacity: 1;
+        z-index: 2;
+        font-family: 'Golos Text';
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        color: #313131;
+    }
+
+    #description-frame-48095627 {
+        width: 446px;
+        height: 96px;
+    }
+
+    #description-frame-48095628 {
+        width: 302px;
+        height: 96px;
+    }
+
+    #description-frame-48095631 {
+        height: 144px;
+    }
+
+    #description-frame-48095633 {
+        height: 48px;
+    }
+
+    .image {
+        display: flex;
+        position: absolute;
+        width: 1066px;
+        height: 489px;
+        top: -106px;
+        left: -242px;
+        background: url('../assets/header/image23.png');
+        background-size: cover;
+        background-position: center;
+        mix-blend-mode: normal;
+        z-index: 0;
+        box-sizing: border-box;
+    }
+
+    .image::before {
+        content: "";
+        background: url('../assets/section2/Cooper Union Stamp Paper.png');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 1;
+        box-sizing: border-box;
+    }
+
+    .stamp-paper {
+        position: absolute;
+        background: url('../assets/section2/Cooper Union Stamp Paper.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 1;
+        opacity: 0.8;
+        filter: drop-shadow(5px 4px 12.7px rgba(0, 0, 0, 0.25));
+        transform: rotate(-90deg);
+    }
+
+    #frame-48095627 .stamp-paper {
+        width: 448px;
+        height: 886px;
+        left: -23px;
+        top: 349px;
+    }
+
+    #frame-48095632 .stamp-paper {
+        width: 350px;
+        height: 690px;
+        left: -113px;
+        top: 219px;
+    }
+
+    #frame-48095633 .stamp-paper {
+        width: 357px;
+        height: 704px;
+        left: -129px;
+        top: 282px;
+    }
+
+    #frame-48095629 .stamp-paper {
+        width: 357px;
+        height: 704px;
+        left: -32px;
+        top: 290px;
+        box-shadow: 5px 4px 12.7px 0px #00000040;
+    }
+
+    #frame-48095630 .stamp-paper {
+        width: 350px;
+        height: 690px;
+        left: -273px;
+        top: 287px;
+    }
+
+    #frame-48095631 .stamp-paper {
+        width: 350px;
+        height: 690px;
+        left: -256px;
+        top: 301px;
+    }
+
+    #frame-48095628 .stamp-paper {
+        width: 448px;
+        height: 886px;
+        left: -98px;
+        top: 349px;
+    }
+
+    .mask-group {
+        position: absolute;
+        width: 376.64px;
+        height: 140.42px;
+        left: 956px;
+        top: 2331.48px;
+        gap: 0px;
+        opacity: 0;
+        transform: rotate(-15.31deg);
+    }
+
+    .plane {
+        position: absolute;
+        width: 376.64px;
+        height: 140.42px;
+        top: 2331.48px;
+        left: 956px;
+        gap: 0px;
+        opacity: 1;
+    }
+
+    .plane-image {
+        background: url('../assets/stages/plane.png');
+        position: absolute;
+        background-size: cover;
+        width: 374.8px;
+        height: 200px;
+        top: -100px;
+        left: 20px;
+        gap: 0px;
+        opacity: 1;
+        z-index: 1;
+    }
+
+    .plane1 { display:none; }
+
+    .participants { display: flex; }
+
+    .tournament-participants {
+        position: absolute;
+        display: flex;
+        width: 806px;
+        height: 65px;
+        top: 2665px;
+        left: 72px;
+        gap: 0px;
+        opacity: 1;
+        font-family: Merriweather;
+        font-size: 54px;
+        font-weight: 400;
+        line-height: 64.8px;
+        text-align: left;
+        color: #313131;
+    }
+
+    .br-mobile { display: none; }
+
+    .pagination {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 50px;
+        padding: 10px 20px;
+        width: 151px;
+        height: 44px;
+        top: 2675px;
+        left: 1143px;
+        gap: 14px;
+        opacity: 1;
+    }
+
+    .mobile {  display: none; }
+
+    .desktop { 
+        position: absolute;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 50px;
+        padding: 10px 20px;
+        width: 151px;
+        height: 44px;
+        gap: 14px;
+        opacity: 1;
+         }
+
+    .desktop button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        gap: 0px;
+        opacity: 1;
+        border-radius: 50%;
+        background-color: #313131;
+    }
+
+    .desktop .current-page {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 12px;
+        height: 11px;
+        gap: 0px;
+        opacity: 1;
+        font-family: 'Golos Text';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        text-align: left;
+        color: #313131;
+    }
+
+    .arrow {
+        border: solid #ffffff;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+    }
+
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    .left {
+        transform: rotate(135deg);
+        webkit-transform: rotate(135deg);
+    }
+
+    .page-two {
+        position: absolute;
+        display: flex;
+        height: 631px;
+        left: 1014px;
+        padding: 85px 72px 84px 72px;
+        opacity: 1;
+        top: 0;
+        margin-left: 250px;
+    }
+
+    .page-indicator {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        gap: 1px;
+        width: 35px;
+        height: 11px;
+    }
+
+    .page-indicator-mobile { display: none; }
+
+    .page-number,
+    .total-pages {
+        display: flex;
+        width: 12px;
+        height: 11px;
+        font-family: 'Golos Text', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.2px;
+        text-align: left;
+        gap: 0px;
+        opacity: 1;
+        color: #313131;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .last-total-pages { opacity: 0.6; }
+
+    .separator {
+        display: flex;
+        width: 9px;
+        height: 11px;
+        font-family: 'Golos Text', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.2px;
+        text-align: left;
+        color: #313131;
+        gap: 0px;
+        opacity: 0.6;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .desktop button:hover {
+        background-color: #FBCE51;
+        border: none;
+        cursor: not-allowed;
+    }
+
+    .desktop button:disabled {
+        background-color: #D6D6D6;
+        border: none;
+    }
+
+    .carousel-container {
+        width: 100%;
+        position: relative;
+        top: 0;
+    }
+
+    .carousel-container-mobile { display: none; }
+
+    .carousel-wrapper {
+        position: absolute;
+        display: flex;
+        padding: 85px 72px 84px 72px;
+        gap: 0px;
+        opacity: 1;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .people-card {
+        position: absolute;
+        display: flex;
+        width: 394px;
+        height: 462px;
+        left: 72px;
+        top: 2100px;
+        gap: 0px;
+        opacity: 1;
+    }
+
+    .people-card1{ left: 486px; }
+    .people-card2{ left: 486px; }
+    .people-card3{ left: 900px; }
+    .people-card4{ left: 72px; }
+    .people-card5{ left: 486px; }
+    .people-card6{ left: 900px; }
+
+    .frame-48095641 {
+        background: url('../assets/section2/player.png');
+        position: absolute;
+        width: 320px;
+        height: 320px;
+        left: calc(50% - 320px / 2);
+        top: 0px;
+        border-radius: 195.556px;
+    }
+
+    .text.title {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 286px;
+        height: 29px;
+        left: 54px;
+        top: 348px;
+        font-family: 'Golos Text';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28.8px;
+        text-align: left;
+        color: #313131;
+    }
+
+    .text.subtitle {
+        position: absolute;
+        display: flex;
+        width: 277px;
+        height: 24px;
+        left: 59px;
+        top: 383px;
+        font-family: 'Golos Text';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: left;
+        color: #313131;
+        gap: 0px;
+        opacity: 0.6;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .stamp {
+        position: absolute;
+        width: 377px;
+        height: 780px;
+        left: -283px;
+        top: 348px;
+        background: url('../assets/section2/Cooper Union Stamp Paper.png');
+        opacity: 0.8;
+        filter: drop-shadow(5px 4px 12.7px rgba(0, 0, 0, 0.25));
+        transform: rotate(-90deg);
+    }
+
+    .more-info {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        opacity: 1;
+        width: 113px;
+        height: 35px;
+        left: 141px;
+        top: 427px;
+        border: 1px solid #3057A2;
+        border-radius: 62px;
+        align-content: center;
+        background: #FFFFFF;
+    }
+
+    .more-info:hover {
+        border: 1px solid #3057A2;
+        background-color: #3057A2;
+    }
+
+    .more-info-text {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 89px;
+        height: 11px;
+        gap: 0px;
+        opacity: 1;
+        font-family: 'Golos Text';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.2px;
+        text-align: left;
+        color: #3057A2;
+    }
+
+    .more-info-text:hover {
+        color: #FFFFFF;
+    }
+
+/* RUNNING LINE-2 1366px*/
+    .running2 {
+        background-color: #F54932;
+        width: 1366px;
+        position: absolute;
+        top: 3392px;
+    }
+
+    .running2-line-wrapper {
+        overflow: hidden;
+        width: auto;
+        height: 60px;
+        background: #F54932;
+        position: relative;
+    }
+
+    .running2-line {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        top: 0;
+        left: 0;
+        padding: 18px 12px 18px 12px;
+        gap: 12px;
+        opacity: 1;
+        white-space: nowrap;
+        animation: scroll-left 15s linear infinite;
+        background: #F54932;
+    }
+
+    .running2-line:hover {
+        animation-play-state: paused;
+    }
+
+    .text-block {
+        height: 24px;
+        font-family: 'Merriweather', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 24.2px;
+        text-align: center;
+        text-transform: uppercase;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+        white-space: nowrap;
+    }
+
+    .text-block-1 { width: 766px; }
+    .text-block-2 { width: 841px; }
+    .text-block-3 { width: 626px; }
+
+    .ellipse {
+        width: 6px;
+        height: 6px;
+        background: #FFFFFF;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .last-div{ display: flex; }
+
+    .footer {
+        background-color: #E9DED4;
+        position: absolute;
+        display: flex;
+        width: 1366px;
+        height: 150px;
+        top: 3452px;
+        gap: 0px;
+        opacity: 1;
+    }
+
+    .footer-text {
+        position: absolute;
+        display: flex;
+        width: 1222px;
+        height: 38px;
+        top: 40px;
+        left: 72px;
+        gap: 0px;
+        opacity: 0.6;
+        font-family: 'Golos Text', serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        text-align: left;
+        color: #313131;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 375px;
+        height: 812px;
+    }
+
+    .header {
+        width: 375px;
+    }
+
+    .logo {
+        width: 18.75px;
+        height: 27px;
+        top: 20px;
+        left: 20px; 
+    }
+
+    .logo1 { left: 40.25px; }
+    .logo2 { left: 60.5px; }
+    .logo3 { left: 80.75px; }
+
+    .header-logo {
+        width: 128px;
+        height: 32px;
+        top: 18px;
+        left: 105px;
+        font-size: 14.42px;
+        font-weight: 700;
+        line-height: 15.57px;
+    }
+
+    .graph {
+        width: 335px;
+        height: 393px;
+        top: 0;
+        left: 20px;
+    }
+
+    .graph-div {
+        width: 335px;
+        height: 160px;
+        top: 90px;
+        left: 20px;
+    }
+
+    .graph-span {
+        width: 335px;
+        height: 80px;
+
+        font-family: Merriweather;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 39.6px;
+        text-align: left;
+    }
+
+    .graph-span-1 {
+        width: 216px;
+        height: 40px;
+        top: 80px;
+        left: 63.25px;
+        font-family: Merriweather;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 39.6px;
+        text-align: right;
+    }
+
+    .graph-span-2 {
+        width: 335px;
+        height: 40px;
+        top: 120px;
+        font-family: Merriweather;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 39.6px;
+        text-align: right;
+    }
+
+    .graph-span-3 {
+        width: 335px;
+        height: 69px;
+        top: 274px;
+        left: 20px;
+        font-family: Golos Text;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23.4px;
+        text-align: left;
+    }
+
+    .button-div {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .button {
+        width: 335px;
+        height: 47px;
+        top: 375px;
+        left: 20px;
+        padding: 18px 20px 18px 20px;
+        gap: 0px;
+        border-radius: 66px;
+        opacity: 1;
+    }
+
+    .button-1 {
+        background: #FFFFFF;
+        top: 436px;
+        padding: 18px 20px 18px 20px;
+        gap: 0px;
+        border-radius: 66px;
+        opacity: 0.9;
+        font-family: Golos Text;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.8px;
+        text-align: center;
+        border: none;
+    }
+
+    .button-span {
+        width: 249px;
+        height: 11px;
+        justify-content: center
+    }
+
+    .circle { 
+        width: 349.98px;
+        height: 349.98px;
+        top: 383.59px;
+        left: 3.79px;
+        transform: rotate(0deg);
+    }
+
+    .circle-text { 
+        width: 355px;
+        height: 360px;
+        top: 403.59px;
+        left: 0;
+        background-size: cover;
+    }
+
+    .president-chess { 
+        width: 46.98px;
+        height: 104.8px;
+        top: 497.99px;
+        left: 249.93px;
+        border: 0.09px;
+    }
+
+    .king-chess { 
+        width: 47.44px;
+        height: 116.98px;
+        top: 546.41px;
+        left: 62.81px;
+    }
+
+    .city { 
+        width: 885.53px;
+        height: 246.81px;
+        top: 537.86px;
+        left: -401.1px;
+        background-size: cover;
+        width: -webkit-fill-available;
+    }
+
+    .soldier-chess { 
+        display: none;
+        width: 874.73px;
+        height: 252.99px;
+        top: 531.86px;
+        left: -403.01px;
+        background-size: cover;
+    }
+
+    .hourse-chess { 
+        width: 76.71px;
+        height: 121.63px;
+        top: 674.85px;
+        left: 146.05px;
+        transform: rotate(-10.59deg);
+    }
+
+    .running {
+        position: absolute;
+        display: flex;
+        margin-top: 0;
+        background-color: #F54932;
+        width: -webkit-fill-available;
+        height: 38px;
+        top: 774px;
+        left: -217px;
+        padding: 10px 12px 10px 12px;
+        gap: 12px;
+        z-index: 6;
+    }
+
+    .running-line-wrapper {
+        overflow: hidden;
+        width: 1727px;
+        height: 38px;
+        background: #F54932;
+        position: relative;
+    }
+
+    .running-line {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        top: 0;
+        left: 0;
+        padding: 10px 12px 10px 12px;
+        gap: 12px;
+        opacity: 1;
+        white-space: nowrap;
+        animation: scroll-left 15s linear infinite;
+        background: #F54932;
+        z-index: 7;
+    }
+
+    .running-line:hover {
+        animation-play-state: paused;
+    }
+
+    .text-block {
+        height: 24px;
+        font-family: 'Merriweather', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 24.2px;
+        text-align: center;
+        text-transform: uppercase;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .text-block-1 { width: 766px; }
+    .text-block-2 { width: 841px; }
+    .text-block-3 { width: 626px; }
+
+    .ellipse {
+        width: 6px;
+        height: 6px;
+        background: #FFFFFF;
+        border-radius: 50%;
+    }
+
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .double-section {
+        display: flex;
+        position: absolute;
+        width: 336px;
+        height: 1773px;
+        top: 860px;
+        left: 19px;
+        gap: 0px;
+        opacity: 1;
+    }
+
+    .group-15 {
+        display: flex;
+    }
+
+    .lecture-info {
+        position: absolute;
+        width: 335px;
+        height: 152px;
+        left: 1px;
+        font-family: Merriweather;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 37.8px;
+        text-align: left;
+        color: #313131;
+    }
+
+    .lecture-info-span-1 {
+        position: absolute;
+        top: 413px;
+        left: 1px;
+        font-family: Merriweather;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 37.8px;
+        text-align: left;
+
+    }
+
+    .lecture-info-span {
+        font-weight: 700;
+        color: #F54932;
+    }
+
+    .frame-player {
+        position: absolute;
+        width: 335px;
+        height: 212.56px;
+        top: 176px;
+        gap: 0px;
+        border-radius: 74.23px;
+        opacity: 1;
+    }
+
+    .ellipse-65 {
+        position: absolute;
+        width: 335px;
+        height: 212.56px;
+        border-radius: 60% 60% 60% 60%;
+        left: 0;
+        top: 0;
+        gap: 0px;
+        opacity: 1;
+        background: #D9D9D9;
+    }
+
+    .support {
+        display: flex;
+    }
+
+    .image-background {
+        background: url('../assets/section1/chess player.png') no-repeat center;
+        position: absolute;
+        width: 335px;
+        left: 0;
+        top: -37.59px;
+    }
+
+    .section-image {
+        background: url('../assets/section1/Frame 48095654.png') no-repeat center;
+        background-size: contain;
+        position: absolute;
+        display: flex;
+        width: 335px;
+        height: 402px;
+        top: 599px;
+        left: 1px;
+        gap: 0px;
+        opacity: 1;
+    }
+
+    .section-div {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 335px;
+        height: 228px;
+        top: 1025px;
+        left: 1px;
+        gap: 0px;
+        opacity: 1;
+        font-family: 'Merriweather';
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 37.8px;
+        text-align: left;
+    }
+
+    .lecture-info-span-mobile {
+        font-family: 'Merriweather';
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 37.8px;
+        text-align: left;
+    }
+
+    .showen-mobile {
+        display: flex;
+    }
+
+    .section-div2 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 191px;
+        height: 24px;
+        top: 1297px;
+        left: 1px;
+        gap: 0px;
+        opacity: 0.7;
+    }
+
+    .section-div2-text1 {
+        font-family: 'Golos Text';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .section-div2-mobile {
+        width: 290px;
+        top: 1389px;
+    }
+
+    .section-div2-mobile-1 {
+        width: 285px;
+        top: 1481px;
+    }
+
+    .section-div2-mobile-2 {
+        width: 141px;
+        top: 1573px;
+    }
+
+    .section-div2-mobile-3 {
+        width: 290px;
+        top: 1629px;
+    }
+
+    hr {
+        position: absolute;
+        display: flex;
+        width: 335px;
+        height: 0px;
+        left: 1px;
+        gap: 0px;
+        border: 2px 0px 0px 0px;
+        opacity: 1;
+    }
+
+    .hr1 { top: 1373px; }
+    .hr2 { top: 1465px; }
+    .hr3 { top: 1557px; }
+    .hr4 { top: 1613px; }
+
+    .hr-vertical { display: none; }
+
+    .section-div3 {
+        position: absolute;
+        display: flex;
+        height: 24px;
+        left: 1px;
+        gap: 0px;
+        opacity: 1;
+        font-family: Golos Text;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .section-div3-mobile {
+        width: 213px;
+        top: 1333px;
+    }
+
+    .section-div3-mobile-1 {
+        width: 268px;
+        top: 1425px;
+    }
+
+    .section-div3-mobile-2 {
+        width: 72px;
+        top: 1517px;
+    }
+
+    .section-div3-mobile-3 {
+        position: absolute;
+        display: flex;
+        width: 72px;
+        height: 24px;
+        top: 1573px;
+        left: 154px;
+        gap: 0px;
+        opacity: 1;
+    }
+
+    .old-price {
+        position: absolute;
+        display: flex;
+        height: 24px;
+        top: 1665px;
+        left: 1px;
+        gap: 0px;
+        opacity: 1;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Golos Text';
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .strike-through{
+        position: absolute;
+        display: flex;
+        width: 87px;
+        top: 1679px;
+        gap: 0px;
+        border: 2px solid #F54932;
+        opacity: 1;
+    }
+
+    .new-price {
+        position: absolute;
+        display: flex;
+        width: 143px;
+        height: 24px;
+        top: 1665px;
+        left: 95px;
+        gap: 0px;
+        opacity: 1;
+        font-family: 'Golos Text';
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .section-div4 {
+        position: absolute;
+        display: flex;
+        width: 335px;
+        height: 44px;
+        top: 1729px;
+        left: 1px;
+        gap: 0px;
+        opacity: 1;
+        font-family: 'Golos Text';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.6px;
+        text-align: left;
+        color: #3057A2;
+    }
+
+    .stages {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: -webkit-fill-available;
+        height: 688px;
+        top: 2753px;
+        left: 20px;
+        gap: 0px;
+        opacity: 1;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .stage {
+        display: flex;
+        width: 335px;
+        height: 120px;
+        gap: 0px;
+        opacity: 1;
+        font-family: 'Merriweather';
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 39.6px;
+        text-align: left;
+        align-items: center
+    }
+
+    .stage-span {
+        position: absolute;
+        display: flex;
+        width: 335px;
+        height: 44px;
+        top: 132px;
+        gap: 0px;
+        opacity: 1;
+        font-family: Golos Text;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.6px;
+        text-align: left;
+        color: #3057A2;
+    }
+
+    .frames-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .frame {
+        width: 90%;
+        height: auto;
+        background: #D9D9D9;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        position: relative;
+    }
+
+    .number-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        background: #FFFFFF;
+        border-radius: 60px;
+        top: 62px;
+        left: 20px;
+        opacity: 1;
+        gap: 10px;
+        z-index: 2;
+    }
+
+    .number {
+        font-family: 'Golos Text';
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: #313131;
+    }
+
+    #number-container-frame-48095630 { top: 178px; }
+
+    #number-container-frame-48095632 { top: 134px; }
+
+    .description {
+        width: 100%;
+        font-size: 16px;
+        top: 50px;
+        left: 0;
+        padding: 0 10px;
+        text-align: center;
+        font-family: 'Golos Text';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.6px;
+        text-align: left;
+        z-index: 1;
+    }
+
+    .description-number-2 {
+        position: absolute;
+        display: flex;
+        width: 239px;
+        height: 88px;
+        top: 178px;
+        left: 72px;
+        gap: 0px;
+        opacity: 1;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .image {
+        display: flex;
+        width: 448px;
+        opacity: 0.81;
+        background: url('../assets/header/image23.png');
+        background-size: cover;
+        background-position: center;
+        mix-blend-mode: normal;
+        z-index: 0;
+        box-sizing: border-box;
+    }
+
+    .image::before {
+        content: "";
+        background: url('../assets/section2/Cooper Union Stamp Paper.png');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 1;
+        box-sizing: border-box;
+    }
+
+    .stamp-paper {
+        position: absolute;
+        background: url('../assets/section2/Cooper Union Stamp Paper.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 1;
+        opacity: 0.8;
+        filter: drop-shadow(5px 4px 12.7px rgba(0, 0, 0, 0.25));
+        transform: rotate(-90deg);
+    }
+
+    .plane {
+        background: url('../assets/stages/plane.png');
+        position: absolute;
+        width: 335px;
+        height: 182px;
+        top: 196px;
+        gap: 0px;
+        opacity: 1;
+        z-index: 6;
+    }
+
+    .plane1 {
+        display: none;
+    }
+
+    .combine-frame {
+        position: absolute;
+        display: flex;
+        width: 335px;
+        height: 300px;
+        gap: 16px;
+        opacity: 1;
+    }
+
+    .combine-frame2 {
+        position: absolute;
+        display: flex;
+        width: 335px;
+        height: 300px;
+        gap: 16px;
+        opacity: 1;
+    }
+
+    #frame-48095631 {
+        position: absolute;
+        display: flex;
+        width: 335px;
+        height: 300px;
+        gap: 16px;
+        opacity: 1;
+    }
+
+    #frame-48095628 {
+        position: absolute;
+        display: flex;
+        width: 335px;
+        height: 300px;
+        gap: 16px;
+        opacity: 1;
+
+    }
+
+    #frame-48095627 {
+        display: flex;
+        width: 335px;
+        height: 300px;
+        gap: 16px;
+        opacity: 1;
+    }
+
+    .description {
+        position: absolute;
+        display: flex;
+        width: 240px;
+        height: 176px;
+        top: 62px;
+        left: 72px;
+        gap: 0px;
+        opacity: 1;
+    }
+
+    #description-frame-48095627 {
+        position: absolute;
+        display: flex;
+        height: 176px;
+    }
+
+    #description-frame-48095631 {
+        position: absolute;
+        display: flex;
+        height: 132px;
+    }
+
+    #description-frame-48095628 {
+        position: absolute;
+        display: flex;
+        height: 110px;
+    }
+
+    #description-frame-48095630 {
+        width: 239px;
+        height: 88px;
+        top: 178px;
+    }
+
+    #description-frame-48095632 {
+        height: 66px;
+        top: 134px;
+    }
+
+    .pagination-mobile {
+        position: absolute;
+        display: flex;
+        width: 178px;
+        height: 36px;
+        top: 700px;
+        left: 79px;
+        gap: 16px;
+        opacity: 1;
+        align-items: center;
+    }
+
+    .swiper-slider {
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        top: 30%;
+        position: relative;
+    }
+
+    .swiper-list {
+        display: flex;
+        overflow: hidden;
+    }
+
+    .swiper {
+        flex: 1 0 100%;
+        text-align: center;
+        transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
+        border-radius: 50%;
+        background-color: #313131;
+        color: #FFFFFF;
+        transition: 0.3s;
+        opacity: 1;
+    }
+
+    .swiper-slider:hover .nav {
+        opacity: 1;
+    }
+
+    .nav:hover {
+        background-color: #FBCE51;
+        color: #FFFFFF;
+        border: none;
+    }
+
+    .nav:disabled {
+        background-color: #D6D6D6;
+        color: #FFFFFF;
+        cursor: not-allowed;
+        border: none;
+    }
+
+    .nav.prev {
+        left: 0px;
+    }
+
+    .nav.next {
+        right: 0px;
+    }
+
+    .dots-container {
+        position: absolute;
+        display: flex;
+        width: 74px;
+        height: 10px;
+        gap: 0px;
+        opacity: 1;
+        text-align: center;
+        left: 34px;
+    }
+
+    .dot {
+        height: 10px;
+        display: inline-block;
+        border-radius: 50%;
+        margin-inline: 5px;
+        border: none;
+        background-color: #D9D9D9;
+        transition: width 0.5s;
+    }
+
+    .dot.active {
+        background-color: #313131;
+    }
+
+    .participants {
+        position: absolute;
+        display:flex;
+        width: -webkit-fill-available;
+        height: 584px;
+        top: 3561px;
+        left: 20px;
+        gap: 0px;
+        opacity: 1;
+    }
+
+    .tournament-participants {
+        position: absolute;
+        display: flex;
+        width: 335px;
+        height: 80px;
+        gap: 0px;
+        opacity: 1;
+        font-family: 'Merriweather';
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 39.6px;
+        text-align: left;
+        color: #313131;
+    }
+
+    .br-mobile { display: flex; }
+
+    .pagination {
+        position: absolute;
+        display: flex;
+        width: 129px;
+        height: 36px;
+        top: 548px;
+        left: 103px;
+        gap: 14px;
+        opacity: 1;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .desktop { display: none; }
+
+    .mobile { 
+        display: flex; 
+        position: absolute;
+        display: flex;
+        width: 129px;
+        height: 36px;
+        gap: 14px;
+        opacity: 1;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .mobile button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        gap: 0px;
+        opacity: 1;
+        border-radius: 50%;
+        background-color: #313131;
+    }
+
+    .mobile .current-page1 {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 12px;
+        height: 11px;
+        gap: 0px;
+        opacity: 1;
+        font-family: 'Golos Text';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        text-align: left;
+        color: #313131;
+    }
+
+    .arrow {
+        border: solid #ffffff;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+    }
+
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    .left {
+        transform: rotate(135deg);
+        webkit-transform: rotate(135deg);
+    }
+
+    .page-indicator { display: none; }
+
+    .page-indicator-mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        gap: 1px;
+        width: 29px;
+        height: 11px;
+    }
+
+    .page-number,
+    .total-pages {
+        display: flex;
+        width: 8px;
+        height: 11px;
+        font-family: 'Golos Text', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.2px;
+        text-align: left;
+        gap: 0px;
+        opacity: 1;
+        color: #313131;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .last-total-pages { opacity: 0.6; }
+
+    .separator {
+        display: flex;
+        width: 9px;
+        height: 11px;
+        font-family: 'Golos Text', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.2px;
+        text-align: left;
+        color: #313131;
+        gap: 0px;
+        opacity: 0.6;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile button:hover {
+        background-color: #FBCE51;
+        border: none;
+        cursor: not-allowed;
+    }
+
+    .mobile button:disabled {
+        background-color: #D6D6D6;
+        border: none;
+    }
+
+    .carousel-container { display: none; }
+
+    .carousel-container-mobile {
+        display: flex;
+        width: 100%;
+    }
+
+    .swiper-slider-mobile {
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        top: 20%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .swiper-list-mobile {
+        display: flex;
+        overflow: hidden;
+    }
+
+    .swiper-mobile {
+        flex: 1 0 100%;
+        text-align: center;
+        transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .people-card {
+        position: absolute;
+        display: flex;
+        width: 335px;
+        height: 388px;
+        gap: 0px;
+        opacity: 1;
+    }
+
+    .frame-48095641 {
+        background: url('../assets/participants/player-mobile.png');
+        position: absolute;
+        width: 244px;
+        height: 244px;
+        left: 45px;
+        border-radius: 149.11px;
+    }
+
+    .text.title {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 286px;
+        height: 29px;
+        left: 24px;
+        top: 272px;
+        font-family: 'Golos Text';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28.8px;
+        text-align: left;
+        color: #313131;
+    }
+
+    .text.subtitle {
+        position: absolute;
+        display: flex;
+        width: 277px;
+        height: 24px;
+        top: 309px;
+        left: 29px;
+        font-family: 'Golos Text';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: left;
+        color: #313131;
+        gap: 0px;
+        opacity: 0.6;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .stamp {
+        position: absolute;
+        width: 377px;
+        height: 780px;
+        left: -283px;
+        top: 348px;
+        background: url('../assets/section2/Cooper Union Stamp Paper.png');
+        opacity: 0.8;
+        filter: drop-shadow(5px 4px 12.7px rgba(0, 0, 0, 0.25));
+        transform: rotate(-90deg);
+    }
+
+    .more-info {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        opacity: 1;
+        width: 113px;
+        height: 35px;
+        left: 111px;
+        top: 353px;
+        border: 1px solid #3057A2;
+        border-radius: 62px;
+        background: #FFFFFF;
+    }
+
+    .more-info:hover {
+        background-color: #3057A2;
+    }
+
+
+    .more-info-text {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 89px;
+        height: 11px;
+        gap: 0px;
+        opacity: 1;
+        font-family: 'Golos Text';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.2px;
+        text-align: left;
+        color: #3057A2;
+    }
+
+    .more-info-text:hover {
+        color: #FFFFFF;
+    }
+
+    .last-div {
+        position: absolute;
+        display: flex;
+        width: 375px;
+        height: 252px;
+        top: 0;
+    }
+
+    .running2 {
+        background-color: #F54932;
+        width: -webkit-fill-available;
+        position: absolute;
+        top: 4245px;
+        z-index: 1;
+    }
+
+    .running2-line-wrapper {
+        overflow: hidden;
+        width: 375px;
+        height: 38px;
+        background: #F54932;
+        position: relative;
+    }
+
+    .running2-line {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        top: 0;
+        left: 0;
+        padding: 10px 12px 10px 12px;
+        gap: 12px;
+        opacity: 1;
+        white-space: nowrap;
+        animation: scroll-left 15s linear infinite;
+        background: #F54932;
+    }
+
+    .running2-line:hover {
+        animation-play-state: paused;
+    }
+
+    .text-block {
+        height: 24px;
+        font-family: 'Merriweather', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 24.2px;
+        text-align: center;
+        text-transform: uppercase;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .text-block-1 { width: 766px; }
+    .text-block-2 { width: 841px; }
+    .text-block-3 { width: 626px; }
+
+    .ellipse {
+        width: 6px;
+        height: 6px;
+        background: #FFFFFF;
+        border-radius: 50%;
+    }
+
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .footer {
+        background-color: #E9DED4;
+        position: absolute;
+        display: flex;
+        width: 375px;
+        height: 252px;
+        top: 4245px;
+        gap: 0px;
+        opacity: 1;
+    }
+
+    .footer-text {
+        position: absolute;
+        display: flex;
+        width: 335px;
+        height: 114px;
+        top: 78px;
+        left: 20px;
+        gap: 0px;
+        opacity: 0.6;
+        font-family: 'Golos Text', serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        text-align: left;
+        color: #313131;
+    }
+}
