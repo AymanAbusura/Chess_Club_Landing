@@ -335,6 +335,17 @@ html, body {
         mix-blend-mode: color-burn;
     }
 
+    .path {
+        position: absolute;
+        width: 1602.71px;
+        height: 100;
+        top: 258px;
+        gap: 0px;
+        z-index: 5;
+    }
+
+    .path1 { display: none; }
+
     .city {
         background: url('../assets/header/city.png') no-repeat;
         -webkit-mask-image: url('../assets/header/city.png');
@@ -529,6 +540,20 @@ html, body {
         width: 1486px;
         height: 452.5px;
         mix-blend-mode: color-burn;
+    }
+
+    .path {
+        display: none;
+    }
+
+    .path1 {
+        display: flex;
+        position: absolute;
+        height: 444.82px;
+        top: 259px;
+        left: -13px;
+        gap: 0px;
+        z-index: 5;
     }
 
     .city { 
@@ -1697,7 +1722,8 @@ html, body {
     .image23-president-chess, .president-chess, 
     .image23-king-chess, .king-chess,
     .image23-city, .city,
-    .soldier-chess, .hourse-chess { display: none; }
+    .soldier-chess, .hourse-chess, 
+    .path, .path1 { display: none; }
 
     .running {
         position: absolute;
