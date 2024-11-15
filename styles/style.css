@@ -24,7 +24,7 @@ html, body {
         z-index: 1;
     }
 
-    .container::after {
+    .container::before {
         content: "";
         background-color: #E9DED4;
         position: absolute;
@@ -33,7 +33,7 @@ html, body {
         bottom: 0;
         left: 0;
         opacity: 0.9;
-        z-index: 0;
+        z-index: -1;
     }
     
     .header {
@@ -76,6 +76,10 @@ html, body {
         line-height: 17.98px;
         font-style: normal;
         text-transform: uppercase;
+    }
+
+    .banner {
+        display: none;
     }
 
     .graph {
@@ -281,54 +285,40 @@ html, body {
         z-index: 3;
     }
 
+    .image23-president-chess {
+        width: 500.2px;
+        height: 500px;
+        mix-blend-mode: color-burn;
+    }
+
     .president-chess {
-        background: url('../assets/header/chess/president-chess.png') no-repeat;
-        background-size: contain;
+        background: url(../assets/header/chess/president-chess.png) no-repeat;
+        -webkit-mask-image: url(../assets/header/chess/president-chess.png);
+        mask-image: url(../assets/header/chess/president-chess.png);
+        mask-repeat: no-repeat;
         position: absolute;
-        display: flex;
-        width: 113.16px;
+        /* display: flex; */
+        width: 136.16px;
         height: 252.44px;
         top: 165.29px;
         left: 1372.79px;
         gap: 0px;
-        transform: rotate(7.59deg);
+        /* transform: rotate(7.59deg); */
         z-index: 4;
     }
 
-    .president-chess::before {
-        content: "";
-        background-image: url(../assets/header/image23.png);
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        opacity: 0.9;
-        z-index: 5;
+    .image23-king-chess {
+        width: 787.76px;
         mix-blend-mode: color-burn;
-        clip-path: polygon(54% 71%, 53% 66%, 37% 5%, 77% 8%);
-    }
-
-    .president-chess::after {
-        content: "";
-        background-image: url(../assets/header/image23.png);
-        background-size: contain;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        opacity: 0.5;
-        z-index: 5;
-        mix-blend-mode: soft-light;
-        clip-path: polygon(54% 71%, 53% 66%, 37% 5%, 77% 8%);
     }
 
     .king-chess {
-        background: url('../assets/header/chess/king-chess.png') no-repeat;
-        background-size: contain;
+        background: url(../assets/header/chess/king-chess.png) no-repeat;
+        -webkit-mask-image: url(../assets/header/chess/king-chess.png);
+        mask-image: url(../assets/header/chess/king-chess.png);
+        mask-repeat: no-repeat;
         position: absolute;
-        display: flex;
+/*        display: flex;*/
         width: 103.78px;
         height: 255.89px;
         top: 281.19px;
@@ -336,39 +326,20 @@ html, body {
         gap: 0px;
         transform: rotate(-5.99deg);
         z-index: 4;
+        background-blend-mode: color-burn;
     }
 
-    .king-chess::before {
-        content: "";
-        background-image: url(../assets/header/image23.png);
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        opacity: 0.9;
-        z-index: 5;
+    .image23-city {
+        width: 1700px; 
+        height: 400px;
         mix-blend-mode: color-burn;
-        clip-path: polygon(62% 90%, 37% 33%, 13% 14%, 62% 12%);
-    }
-
-    .king-chess::after {
-        content: "";
-        background-image: url(../assets/header/image23.png);
-        background-size: contain;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        opacity: 0.5;
-        z-index: 5;
-        mix-blend-mode: soft-light;
-        clip-path: polygon(62% 90%, 37% 33%, 13% 14%, 62% 12%);
     }
 
     .city {
         background: url('../assets/header/city.png') no-repeat;
+        -webkit-mask-image: url('../assets/header/city.png');
+        mask-image: url('../assets/header/city.png');
+        mask-repeat: no-repeat;
         background-size: contain;
         position: absolute;
         display: flex;
@@ -378,6 +349,7 @@ html, body {
         left: 161.5px;
         gap: 0px;
         z-index: 4;
+        background-blend-mode: color-burn;
     }
 
     .soldier-chess {
@@ -536,9 +508,28 @@ html, body {
         width: -webkit-fill-available; 
     }
 
+    .image23-president-chess {
+        width: 141.16px;
+        mix-blend-mode: color-burn;
+        height: 252.44px;
+    }
+
     .president-chess { left: 1094.79px; }
 
+    .image23-king-chess {
+        width: 103.78px;
+        height: 255.89px;
+        mix-blend-mode: color-burn;
+    }
+
     .king-chess { left: 729.18px; }
+
+    .image23-city{
+        position: absolute;
+        width: 1486px;
+        height: 452.5px;
+        mix-blend-mode: color-burn;
+    }
 
     .city { 
         left: -116.5px;
@@ -1598,6 +1589,12 @@ html, body {
         line-height: 15.57px;
     }
 
+    .banner {
+        display: flex;
+        width: 900.01px;
+        height: 812px;
+    }
+
     .graph {
         width: 335px;
         height: 393px;
@@ -1696,62 +1693,11 @@ html, body {
         justify-content: center
     }
 
-    .circle { 
-        width: 349.98px;
-        height: 349.98px;
-        top: 383.59px;
-        left: 3.79px;
-        transform: rotate(0deg);
-    }
-
-    .circle-text { 
-        width: 355px;
-        height: 360px;
-        top: 403.59px;
-        left: 0;
-        background-size: cover;
-    }
-
-    .president-chess { 
-        width: 46.98px;
-        height: 104.8px;
-        top: 497.99px;
-        left: 249.93px;
-        border: 0.09px;
-    }
-
-    .king-chess { 
-        width: 47.44px;
-        height: 116.98px;
-        top: 546.41px;
-        left: 62.81px;
-    }
-
-    .city { 
-        width: 885.53px;
-        height: 246.81px;
-        top: 537.86px;
-        left: -401.1px;
-        background-size: cover;
-        width: -webkit-fill-available;
-    }
-
-    .soldier-chess { 
-        display: none;
-        width: 874.73px;
-        height: 252.99px;
-        top: 531.86px;
-        left: -403.01px;
-        background-size: cover;
-    }
-
-    .hourse-chess { 
-        width: 76.71px;
-        height: 121.63px;
-        top: 674.85px;
-        left: 146.05px;
-        transform: rotate(-10.59deg);
-    }
+    .circle, .circle-text, 
+    .image23-president-chess, .president-chess, 
+    .image23-king-chess, .king-chess,
+    .image23-city, .city,
+    .soldier-chess, .hourse-chess { display: none; }
 
     .running {
         position: absolute;
