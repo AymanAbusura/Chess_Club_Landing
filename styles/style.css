@@ -2363,10 +2363,10 @@ html, body {
     }
 
     .swiper-slider {
-        max-width: 375px;
+/*        max-width: 375px;*/
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 109%;
         top: 30%;
         position: relative;
     }
@@ -2449,7 +2449,7 @@ html, body {
     .participants {
         position: absolute;
         display:flex;
-        width: -webkit-fill-available;
+        width: 320px;
         height: 584px;
         top: 3561px;
         left: 20px;
@@ -2616,10 +2616,11 @@ html, body {
     }
 
     .swiper-slider-mobile {
-        max-width: 375px;
+/*        max-width: 375px;*/
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 108%;
+        height: 90%;
         top: 20%;
         position: relative;
         overflow: hidden;
