@@ -1583,9 +1583,9 @@ html, body {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
     html {
-        width: 375px;
+        width: auto;
     }
 
     .container {
@@ -1620,7 +1620,8 @@ html, body {
 
     .banner {
         display: flex;
-        width: 375px;
+        /* width: 375px; */
+        width: auto;
         height: 812px;
     }
 
@@ -2090,7 +2091,7 @@ html, body {
         position: absolute;
         display: flex;
         flex-direction: column;
-        width: -webkit-fill-available;
+        /* width: -webkit-fill-available; */
         height: 688px;
         top: 2753px;
         left: 20px;
@@ -2367,10 +2368,9 @@ html, body {
     }
 
     .swiper-slider {
-/*        max-width: 375px;*/
         display: flex;
         flex-direction: column;
-        width: 109%;
+        width: 320px;
         top: 30%;
         position: relative;
     }
