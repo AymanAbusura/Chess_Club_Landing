@@ -1743,7 +1743,7 @@ html, body {
         width: -webkit-fill-available;
         height: 38px;
         top: 774px;
-        left: -217px;
+        /* left: -217px; */
         padding: 10px 12px 10px 12px;
         gap: 12px;
         z-index: 6;
