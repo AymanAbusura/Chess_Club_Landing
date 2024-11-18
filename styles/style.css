@@ -6,10 +6,13 @@ html, body {
     padding: 0;
     font-family: 'Golos Text', sans-serif;
     scroll-behavior: smooth;
-    place-items: center;
 }
 
 @media screen and (max-width: 1920px) {
+    html {
+        place-items: center;
+    }
+    
     .container {
         background-image: url('../assets/header/image23.png');
         position: relative;
