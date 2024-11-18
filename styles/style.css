@@ -1751,7 +1751,8 @@ html, body {
 
     .running-line-wrapper {
         overflow: hidden;
-        width: 1727px;
+        /* width: 1727px; */
+        width: -webkit-fill-available;
         height: 38px;
         background: #F54932;
         position: relative;
