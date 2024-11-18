@@ -1584,6 +1584,10 @@ html, body {
 }
 
 @media screen and (max-width: 375px) {
+    html {
+        width: 375px;
+    }
+
     .container {
         width: 375px;
         height: 812px;
